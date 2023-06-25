@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+section,
+.aktifitas {
+  width: 1000px;
+  background-color: white;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#profil,
+#aktifitas {
+  float: left;
+  text-align: center;
+  margin-left: 25px;
+  background-color: darkgray;
+  width: 950px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#img-profil {
+  width: 150px;
+  float: left;
+  margin-left: 20px;
+}
+
+.profil-konten {
+  float: left;
+  width: 780px;
+  margin-top: 20px;
+  text-align: justify;
+  font-size: large;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#img-aktifitas {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  object-fit: contain;
+}
+
+.aktifitas-konten {
+  text-align: justify;
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+.fix-container {
+  clear: both;
+}
